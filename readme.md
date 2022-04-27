@@ -1,10 +1,5 @@
 * atualizar em breve
 
-
- 
-
-
-
 version: "3"
 services:
   valheim:

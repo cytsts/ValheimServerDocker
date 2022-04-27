@@ -1,4 +1,4 @@
-[Message:   BepInEx] BepInEx 5.4.19.0 - valheim_server (4/26/2022 9:43:09 PM)
+[Message:   BepInEx] BepInEx 5.4.19.0 - valheim_server (4/27/2022 11:50:08 AM)
 [Info   :   BepInEx] Running under Unity vUnknown (post-2017)
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
@@ -54,9 +54,9 @@
 [Info   :    Jotunn] Jötunn v2.6.2 loaded successfully
 [Info   :   BepInEx] Loading [Detalhes.CustomSpawners 1.0.5]
 [Info   :   BepInEx] Loading [Kgmarketplace 7.3.5]
-[Info   : Unity Log] 04/27/2022 08:47:44: Loaded localization CSV:localization language:English
+[Info   : Unity Log] 04/27/2022 14:15:01: Loaded localization CSV:localization language:English
 
-[Info   : Unity Log] 04/27/2022 08:47:44: Loaded localization CSV:localization_extra language:English
+[Info   : Unity Log] 04/27/2022 14:15:01: Loaded localization CSV:localization_extra language:English
 
 [Info   : Unity Log] [MPASN] MarketPlace : Server
 [Info   : Unity Log] [MPASN] OnlyEpicLootItems FOUND AND SET TO False
@@ -83,8 +83,16 @@
 [Info   : Unity Log] [MPASN] TeleporterData package size: 7, after compress 25
 [Info   : Unity Log] [MPASN] Banker NPC:
 
+Added Coins to Banker in profile test
+
+Added Wood to Banker in profile test
+
+Added Tar to Banker in profile test
+
 [Info   : Unity Log] [MPASN] Started Banker Income Coroutine
 [Info   : Unity Log] Gamble NPC:
+
+Added Coins, 10, SwordIron, 1, Tar, 30-50, Wood, 1-100 to Gambler in profile test
 
 [Info   : Unity Log] Quests NPC:
 
@@ -95,3 +103,911 @@
 [Info   : Unity Log] [MPASN] FSW started
 [Info   :   BepInEx] Loading [PlanBuild 0.9.5]
 [Info   :PlanBuild.Plans.PlanManager] Initializing PlanManager
+[Info   :PlanBuild.Blueprints.BlueprintManager] Initializing BlueprintManager
+[Info   :PlanBuild.Blueprints.Marketplace.BlueprintSync] Loading known blueprints
+[Info   :   BepInEx] Loading [Seed Totem 4.2.0]
+[Info   :   BepInEx] Loading [OdinShip 0.0.7]
+[Info   :   BepInEx] Loading [Creature Level & Loot Control 4.4.7]
+[Info   : Unity Log] 04/27/2022 14:15:10: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:10: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:10: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:10: Loaded localization CSV:localization_extra language:English
+
+[Info   :   BepInEx] Loading [Valheim Plus 0.9.9.8]
+[Info   :Valheim Plus] Trying to load the configuration file
+[Info   : Unity Log] Loading config section AdvancedBuildingMode
+[Info   : Unity Log]  Loading key enterAdvancedBuildingMode
+[Info   : Unity Log]  Loading key exitAdvancedBuildingMode
+[Info   : Unity Log]  Loading key copyObjectRotation
+[Info   : Unity Log]  Loading key pasteObjectRotation
+[Info   : Unity Log]  Loading key increaseScrollSpeed
+[Info   : Unity Log]  Loading key decreaseScrollSpeed
+[Info   : Unity Log] Loading config section AdvancedEditingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Bed
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Beehive
+[Info   : Unity Log]  Loading key honeyProductionSpeed
+[Info   : Unity Log]  Loading key maximumHoneyPerBeehive
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log] Loading config section Building
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Deconstruct
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Inventory
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Items
+[Info   : Unity Log]  Loading key noTeleportPrevention
+[Info   : Unity Log]  Loading key baseItemWeightReduction
+[Info   : Unity Log]  Loading key itemStackMultiplier
+[Info   : Unity Log]  Loading key droppedItemOnGroundDurationInSeconds
+[Info   : Unity Log]  Loading key itemsFloatInWater
+[Info   : Unity Log] Loading config section Fermenter
+[Info   : Unity Log]  Loading key fermenterDuration
+[Info   : Unity Log]  Loading key fermenterItemsProduced
+[Info   : Unity Log]  Loading key showDuration
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoFuel
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key autoRange
+[Info   : Unity Log] Loading config section FireSource
+[Info   : Unity Log]  Loading key torches
+[Info   : Unity Log]  Loading key fires
+[Info   : Unity Log]  Loading key autoFuel
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key autoRange
+[Info   : Unity Log] Loading config section Food
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Smelter
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoFuel
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key autoRange
+[Info   : Unity Log] Loading config section Furnace
+[Info   : Unity Log]  Loading key maximumOre
+[Info   : Unity Log]  Loading key maximumCoal
+[Info   : Unity Log]  Loading key coalUsedPerProduct
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoFuel
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key autoRange
+[Info   : Unity Log]  Loading key allowAllOres
+[Info   : Unity Log] Loading config section Hotkeys
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Kiln
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key maximumWood
+[Info   : Unity Log]  Loading key dontProcessFineWood
+[Info   : Unity Log]  Loading key dontProcessRoundLog
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoFuel
+[Info   : Unity Log]  Loading key stopAutoFuelThreshold
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key autoRange
+[Info   : Unity Log] Loading config section Windmill
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section SpinningWheel
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Map
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Player
+[Info   : Unity Log]  Loading key baseMaximumWeight
+[Info   : Unity Log]  Loading key baseMegingjordBuff
+[Info   : Unity Log]  Loading key baseAutoPickUpRange
+[Info   : Unity Log]  Loading key disableCameraShake
+[Info   : Unity Log]  Loading key baseUnarmedDamage
+[Info   : Unity Log]  Loading key cropNotifier
+[Info   : Unity Log]  Loading key restSecondsPerComfortLevel
+[Info   : Unity Log]  Loading key deathPenaltyMultiplier
+[Info   : Unity Log]  Loading key autoRepair
+[Info   : Unity Log]  Loading key guardianBuffDuration
+[Info   : Unity Log]  Loading key guardianBuffCooldown
+[Info   : Unity Log]  Loading key disableGuardianBuffAnimation
+[Info   : Unity Log]  Loading key autoEquipShield
+[Info   : Unity Log]  Loading key autoUnequipShield
+[Info   : Unity Log]  Loading key skipIntro
+[Info   : Unity Log]  Loading key iHaveArrivedOnSpawn
+[Info   : Unity Log]  Loading key queueWeaponChanges
+[Info   : Unity Log]  Loading key dontUnequipItemsWhenSwimming
+[Info   : Unity Log]  Loading key reequipItemsAfterSwimming
+[Info   : Unity Log]  Loading key fallDamageScalePercent
+[Info   : Unity Log]  Loading key maxFallDamage
+[Info   : Unity Log]  Loading key skipTutorials
+[Info   : Unity Log]  Loading key disableEncumbered
+[Info   : Unity Log]  Loading key autoPickUpWhenEncumbered
+[Info   : Unity Log] Loading config section Server
+[Info   : Unity Log]  Loading key maxPlayers
+[Info   : Unity Log]  Loading key disableServerPassword
+[Info   : Unity Log]  Loading key enforceMod
+[Info   : Unity Log]  Loading key serverSyncsConfig
+[Info   : Unity Log]  Loading key serverSyncHotkeys
+[Info   : Unity Log] Loading config section Stamina
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StaminaUsage
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Workbench
+[Info   : Unity Log]  Loading key workbenchRange
+[Info   : Unity Log]  Loading key workbenchEnemySpawnRange
+[Info   : Unity Log]  Loading key workbenchAttachmentRange
+[Info   : Unity Log]  Loading key disableRoofCheck
+[Info   : Unity Log] Loading config section Time
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Ward
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StructuralIntegrity
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Tameable
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Hud
+[Info   : Unity Log]  Loading key showRequiredItems
+[Info   : Unity Log]  Loading key experienceGainedNotifications
+[Info   : Unity Log]  Loading key removeDamageFlash
+[Info   : Unity Log]  Loading key displayBowAmmoCounts
+[Info   : Unity Log] Loading config section Experience
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Camera
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Game
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Wagon
+[Info   : Unity Log]  Loading key wagonExtraMassFromItems
+[Info   : Unity Log]  Loading key wagonBaseMass
+[Info   : Unity Log] Loading config section Gathering
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Pickable
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Durability
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Armor
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FreePlacementRotation
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Shields
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section FirstPerson
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GridAlignment
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section CraftFromChest
+[Info   : Unity Log]  Loading key range
+[Info   : Unity Log]  Loading key disableCookingStation
+[Info   : Unity Log]  Loading key checkFromWorkbench
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key lookupInterval
+[Info   : Unity Log]  Loading key allowCraftingFromCarts
+[Info   : Unity Log]  Loading key allowCraftingFromShips
+[Info   : Unity Log] Loading config section ValheimPlus
+[Info   : Unity Log]  Loading key mainMenuLogo
+[Info   : Unity Log]  Loading key serverBrowserAdvertisement
+[Info   : Unity Log] Loading config section PlayerProjectile
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section MonsterProjectile
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section GameClock
+[Info   : Unity Log]  Loading key useAMPM
+[Info   : Unity Log]  Loading key textFontSize
+[Info   : Unity Log]  Loading key textRedChannel
+[Info   : Unity Log]  Loading key textGreenChannel
+[Info   : Unity Log]  Loading key textBlueChannel
+[Info   : Unity Log]  Loading key textTransparencyChannel
+[Info   : Unity Log] Loading config section Brightness
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Chat
+[Info   : Unity Log]  Section not enabled
+[Info   :Valheim Plus] Configuration file loaded succesfully.
+[Info   :Valheim Plus] ValheimPlus [0.9.9.8] is up to date.
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.0]
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] 04/27/2022 14:15:17: Starting to load scene:start
+
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Info   : Unity Log] 04/27/2022 14:15:24: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:24: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:24: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:24: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:24: Get create world Dedicated
+
+[Info   : Unity Log] 04/27/2022 14:15:24: Using environment steamid 892970
+
+[Info   : Unity Log] 04/27/2022 14:15:24: Using steam APPID:892970
+
+[Info   : Unity Log] 04/27/2022 14:15:25: Server ID 90071992547409920
+
+[Info   : Unity Log] 04/27/2022 14:15:25: Authentication:k_ESteamNetworkingAvailability_Waiting
+
+[Info   : Unity Log] 04/27/2022 14:15:25: Steam game server initialized
+
+[Info   : Unity Log] 04/27/2022 14:15:25: Using default prefs
+
+[Info   : Unity Log] 04/27/2022 14:15:25: Valheim version:0.208.1@0.9.9.8
+
+[Info   :Jotunn.Managers.CommandManager] Adding 11 commands to the Console
+[Info   : Unity Log] 04/27/2022 14:15:25: Render threading mode:SingleThreaded
+
+[Warning: Unity Log] 04/27/2022 14:15:25: Missing audio clip in music respawn
+
+[Info   :Jotunn.Managers.InputManager] Registering 6 custom inputs
+[Info   :Jotunn.Managers.LocalizationManager] Loading custom localizations
+[Info   : Unity Log] 04/27/2022 14:15:26: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/27/2022 14:15:26: Loaded localization CSV:localization_extra language:English
+
+[Info   :Jotunn.Managers.LocalizationManager] Adding tokens for language 'English'
+[Info   :SeedTotem.SeedTotemPrefabConfig] Registering Seed Totem Piece
+[Info   :Jotunn.Managers.KitbashManager] Applying Kitbash in 2 objects
+[Info   :Jotunn.Managers.ItemManager] Adding 2 custom items to the ObjectDB
+[Info   : Unity Log] 04/27/2022 14:15:27: UI Group status changed Menu = True
+
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Info   : Unity Log] 04/27/2022 14:15:27: Using default prefs
+
+[Info   :Jotunn.Managers.CommandManager] Adding 11 commands to the Console
+[Info   : Unity Log] 04/27/2022 14:15:27: Zonesystem Awake 300
+
+[Info   : Unity Log] 04/27/2022 14:15:27: DungeonDB Awake 300
+
+[Info   : Unity Log] 04/27/2022 14:15:27: Registering lobby
+
+[Info   : Unity Log] Registered 'advize.PlantEverything ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'marlthon.OdinShip ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'marlthon.OdinShip PieceManager ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] Registered 'CL&LC ConfigSync' RPC - waiting for incoming connections
+[Info   :Jotunn.Managers.PrefabManager] Adding 19 custom prefabs to the ZNetScene
+[Info   : Unity Log] [MPASN] New server currency accepted, Currency Name: $item_coins
+[Info   :Jotunn.Managers.ItemManager] Adding 2 custom items to the ObjectDB
+[Info   :Jotunn.Managers.ItemManager] Adding 2 custom recipes to the ObjectDB
+[Info   :Jotunn.Managers.PieceManager] Adding 15 custom pieces to the PieceTables
+[Warning:Jotunn.PrefabExtension] Not fixing potential mock references for field m_remainingRequirements : Dictionary is not supported.
+[Info   :SeedTotem.SeedTotemPrefabConfig] Moving Seed Totem to Cultivator
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+CreatureLevelControl.ItemConfig+<itemGroups>d__10.MoveNext () (at <3d9ee93b21ce4b48b587f2ea8ba0b505>:0)
+System.Collections.Generic.LargeArrayBuilder`1[T].AddRange (System.Collections.Generic.IEnumerable`1[T] items) (at <351e49e2a5bf4fd6beabb458ce2255f3>:0)
+System.Collections.Generic.EnumerableHelpers.ToArray[T] (System.Collections.Generic.IEnumerable`1[T] source) (at <351e49e2a5bf4fd6beabb458ce2255f3>:0)
+System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) (at <351e49e2a5bf4fd6beabb458ce2255f3>:0)
+CreatureLevelControl.ItemConfig+LoadPredefinedGroups.Postfix () (at <3d9ee93b21ce4b48b587f2ea8ba0b505>:0)
+(wrapper dynamic-method) ObjectDB.DMD<ObjectDB::Awake>(ObjectDB)
+
+[Info   : Unity Log] 04/27/2022 14:15:30: Audioman already exist, destroying self
+
+[Info   :Jotunn.Managers.NetworkManager] Registering 5 custom RPCs
+[Info   : Unity Log] 04/27/2022 14:15:33: Zonesystem Start 300
+
+[Info   : Unity Log] 04/27/2022 14:15:33: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups from locations_cp1
+
+[Info   : Unity Log] 04/27/2022 14:15:33: Added 1 locations, 0 vegetations, 1 environments, 0 biome env-setups from locations_mountaincaves
+
+[Info   : Unity Log] 04/27/2022 14:15:33: DungeonDB Start 300
+
+[Info   : Unity Log] 04/27/2022 14:15:34: Load world Dedicated
+
+[Info   : Unity Log] 04/27/2022 14:15:34: Loading 30230 zdos , my id 1440549749 data version:28
+
+[Info   : Unity Log] 04/27/2022 14:15:34: Loaded 607 dead zdos
+
+[Info   : Unity Log] 04/27/2022 14:15:34: Removed 0 OLD generated ZDOS
+
+[Info   : Unity Log] 04/27/2022 14:15:34: Loaded 7537 locations
+
+[Info   : Unity Log] 04/27/2022 14:15:34: Game server connected
+
+[Info   : Unity Log] 04/27/2022 14:25:34:  Connections 0 ZDOS:30230  sent:0 recv:0
+
+[Info   : Unity Log] 04/27/2022 14:35:34:  Connections 0 ZDOS:30230  sent:0 recv:0
+
+[Info   : Unity Log] 04/27/2022 14:35:35: clone 32
+
+[Info   : Unity Log] 04/27/2022 14:45:35:  Connections 0 ZDOS:30230  sent:0 recv:0
+
+[Info   : Unity Log] 04/27/2022 14:55:35:  Connections 0 ZDOS:30230  sent:0 recv:0
+
+[Info   : Unity Log] 04/27/2022 14:55:35: clone 43
+
+[Info   : Unity Log] 04/27/2022 15:05:35:  Connections 0 ZDOS:30230  sent:0 recv:0
+
+[Info   : Unity Log] [MPASN] Checing Expired Items
+[Info   : Unity Log] [MPASN] Adding Banker Income
+[Info   : Unity Log] 04/27/2022 15:15:35:  Connections 0 ZDOS:30230  sent:0 recv:0
+
+[Info   : Unity Log] 04/27/2022 15:15:36: clone 28
+
+[Info   : Unity Log] 04/27/2022 15:25:35:  Connections 0 ZDOS:30230  sent:0 recv:0
+
+[Info   : Unity Log] 04/27/2022 15:26:08: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 04/27/2022 15:26:08: New connection
+
+[Info   : Unity Log] 04/27/2022 15:26:08: Accepting connection k_EResultOK
+
+[Info   : Unity Log] 04/27/2022 15:26:08: Connecting to Steamworks.SteamNetworkingIdentity
+
+[Info   : Unity Log] 04/27/2022 15:26:08: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+
+[Info   : Unity Log] 04/27/2022 15:26:08: Connected
+
+[Info   : Unity Log] 04/27/2022 15:26:08: Got connection SteamID 76561198005208275
+
+[Info   : Unity Log] 04/27/2022 15:26:08: Got handshake from client 76561198005208275
+
+[Info   : Unity Log] [MPASN] [MPASN] Started validating:
+[Info   : Unity Log] [MPASN] [MPASN] Validating: OK
+[Info   : Unity Log] 04/27/2022 15:26:09: VERSION check their:0.208.1@0.9.9.8-KGmarketplace7.3.5  mine:0.208.1@0.9.9.8-KGmarketplace7.3.5
+
+[Info   : Unity Log] 04/27/2022 15:26:09: Server: New peer connected,sending global keys
+
+[Info   :Jotunn.Managers.SynchronizationManager] Sending initial data to peer #2341167038
+[Info   : Unity Log] [MPASN] I'm about to send 26 amount of data for 0 quests
+[Info   : Unity Log] 04/27/2022 15:26:13: VPlus configuration synced to peer #2341167038
+
+[Info   : Unity Log] 04/27/2022 15:26:33: Got character ZDOID from Pitoca : 2341167038:1
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 04/27/2022 15:27:06: New connection
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Accepting connection k_EResultOK
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Connecting to Steamworks.SteamNetworkingIdentity
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Connected
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Got connection SteamID 76561198053227805
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Got handshake from client 76561198053227805
+
+[Info   : Unity Log] [MPASN] [MPASN] Started validating:
+[Info   : Unity Log] [MPASN] [MPASN] Validating: OK
+[Info   : Unity Log] 04/27/2022 15:27:06: VERSION check their:0.208.1@0.9.9.8-KGmarketplace7.3.5  mine:0.208.1@0.9.9.8-KGmarketplace7.3.5
+
+[Info   : Unity Log] 04/27/2022 15:27:06: Server: New peer connected,sending global keys
+
+[Info   :Jotunn.Managers.SynchronizationManager] Sending initial data to peer #-793324233
+[Info   : Unity Log] [MPASN] I'm about to send 26 amount of data for 0 quests
+[Info   : Unity Log] 04/27/2022 15:27:11: VPlus configuration synced to peer #-793324233
+
+[Info   : Unity Log] 04/27/2022 15:27:29: Got character ZDOID from Rawk : -793324233:1
+
+[Info   : Unity Log] 04/27/2022 15:29:06: Found location of type Eikthyrnir
+
+[Info   : Unity Log] 04/27/2022 15:35:36:  Connections 2 ZDOS:30256  sent:389 recv:398
+
+[Info   : Unity Log] 04/27/2022 15:35:37: clone 38
+
+[Info   : Unity Log] 04/27/2022 15:37:05: Placed locations in zone 4,6  duration 10.748 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Placed locations in zone -1,9  duration 4.899 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Dungeon load time 0.606 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Generating DG_MeadowsFarm(Clone), Seed: 1851645373, Bounds diff: (-32.0, -32.0, -32.0) / (32.0, 32.0, 32.0)
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Available rooms:13
+
+[Info   : Unity Log] 04/27/2022 15:37:28: To place:30
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Placed 8 rooms
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Dungeon generated with seed 1851645373 and hash -1369105829
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Placed locations in zone 0,9  duration 240.04 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Placed locations in zone 1,9  duration 5.079 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:28: Placed locations in zone 3,9  duration 15.043 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:29: Placed locations in zone 4,9  duration 7.783 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:42: Placed locations in zone -3,10  duration 4.377 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:42: Placed locations in zone -1,10  duration 0.113 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:42: Placed locations in zone 1,10  duration 6.275 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:42: Placed locations in zone 3,10  duration 86.366 ms
+
+[Info   : Unity Log] 04/27/2022 15:37:42: Placed locations in zone 4,10  duration 0.453 ms
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Dungeon load time 0.532 ms
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Generating DG_ForestCrypt(Clone), Seed: 1897627519, Bounds diff: (-35.5, -32.0, -32.8) / (28.5, 32.0, 31.2)
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 15:38:14: To place:40
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Connections 4
+
+[Info   : Unity Log] 04/27/2022 15:38:14: placed 7 doors
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Placed 27 rooms
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Dungeon generated with seed 1897627519 and hash -1766019548
+
+[Info   : Unity Log] 04/27/2022 15:38:14: Placed locations in zone -1,11  duration 39.773 ms
+
+[Info   : Unity Log] 04/27/2022 15:45:36:  Connections 2 ZDOS:35422  sent:241 recv:291
+
+[Info   : Unity Log] 04/27/2022 15:55:36:  Connections 2 ZDOS:35417  sent:318 recv:346
+
+[Info   : Unity Log] 04/27/2022 15:55:37: clone 56
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 04/27/2022 16:05:08: New connection
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Accepting connection k_EResultOK
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Connecting to Steamworks.SteamNetworkingIdentity
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Connected
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Got connection SteamID 76561198086170853
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Got handshake from client 76561198086170853
+
+[Info   : Unity Log] [MPASN] [MPASN] Started validating:
+[Info   : Unity Log] [MPASN] [MPASN] Validating: OK
+[Info   : Unity Log] 04/27/2022 16:05:08: VERSION check their:0.208.1@0.9.9.8-KGmarketplace7.3.5  mine:0.208.1@0.9.9.8-KGmarketplace7.3.5
+
+[Info   : Unity Log] 04/27/2022 16:05:08: Server: New peer connected,sending global keys
+
+[Info   :Jotunn.Managers.SynchronizationManager] Sending initial data to peer #-223113454
+[Info   : Unity Log] [MPASN] I'm about to send 26 amount of data for 0 quests
+[Info   : Unity Log] 04/27/2022 16:05:11: VPlus configuration synced to peer #-223113454
+
+[Info   : Unity Log] 04/27/2022 16:05:18: Placed locations in zone 4,11  duration 31.324 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:20: Placed locations in zone 0,12  duration 3.79 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:22: Placed locations in zone 5,6  duration 2.459 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:22: Placed locations in zone 5,7  duration 0.091 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:23: Placed locations in zone -1,13  duration 34.86 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:24: Placed locations in zone -1,14  duration 4.851 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:24: Placed locations in zone 0,14  duration 3.345 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:24: Placed locations in zone 8,-7  duration 18.726 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:25: Placed locations in zone 7,-4  duration 2.244 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:25: Placed locations in zone 5,-2  duration 0.847 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:25: Placed locations in zone 8,0  duration 15.318 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:26: Placed locations in zone 6,10  duration 12.587 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:26: Placed locations in zone 6,12  duration 3.995 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:26: Placed locations in zone 7,-7  duration 8.218 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:26: Placed locations in zone 1,15  duration 3.161 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:26: Placed locations in zone 6,15  duration 1.065 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:27: Placed locations in zone 5,-1  duration 0.131 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:27: Placed locations in zone 6,11  duration 2.205 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:27: Placed locations in zone 13,0  duration 0.094 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:27: Placed locations in zone -1,15  duration 3.112 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:27: Placed locations in zone 2,16  duration 12.958 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:27: Placed locations in zone 13,-7  duration 20.483 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Placed locations in zone 6,-6  duration 19.657 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Placed locations in zone 13,-5  duration 8.185 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Placed locations in zone 12,-3  duration 0.088 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Placed locations in zone 3,14  duration 0.477 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Dungeon load time 0.511 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Generating DG_ForestCrypt(Clone), Seed: 1896541363, Bounds diff: (-22.1, -32.0, -35.3) / (41.9, 32.0, 28.7)
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:28: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:28: placed 7 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Placed 20 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Dungeon generated with seed 1896541363 and hash -1917198599
+
+[Info   : Unity Log] 04/27/2022 16:05:28: Placed locations in zone 10,0  duration 30.433 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Placed locations in zone 10,1  duration 3.711 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Placed locations in zone 7,10  duration 3.268 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Dungeon load time 0.568 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Generating DG_ForestCrypt(Clone), Seed: 1897398489, Bounds diff: (-34.5, -32.0, -31.9) / (29.5, 32.0, 32.1)
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:29: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:29: placed 7 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Placed 23 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Dungeon generated with seed 1897398489 and hash 1508101666
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Placed locations in zone 9,-6  duration 61.44 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Placed locations in zone 6,-5  duration 3.816 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:29: Placed locations in zone 7,-5  duration 0.118 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Placed locations in zone 0,15  duration 1.181 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Dungeon load time 0.542 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Generating DG_ForestCrypt(Clone), Seed: 1896409002, Bounds diff: (-30.9, -32.0, -38.0) / (33.1, 32.0, 26.0)
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:30: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:30: placed 11 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Placed 31 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Dungeon generated with seed 1896409002 and hash 1246883059
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Placed locations in zone 11,-2  duration 34.739 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Placed locations in zone 7,13  duration 55.474 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Got character ZDOID from Ulf : -223113454:1
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Force generaeting hmap (448.0, 0.0, 896.0)
+
+[Info   : Unity Log] 04/27/2022 16:05:30: Placed locations in zone 7,1  duration 9.757 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Placed locations in zone 8,11  duration 4.925 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Dungeon load time 0.651 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Generating DG_ForestCrypt(Clone), Seed: 1897244032, Bounds diff: (-42.0, -32.0, -20.6) / (22.0, 32.0, 43.4)
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:31: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:31: placed 4 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Placed 31 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Dungeon generated with seed 1897244032 and hash -1537443727
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Placed locations in zone 9,-5  duration 53.359 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Placed locations in zone 3,16  duration 41.32 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:31: Placed locations in zone 11,-5  duration 11.561 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:32: Placed locations in zone 9,1  duration 40.052 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:33: Placed locations in zone 10,-4  duration 18.999 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:33: Placed locations in zone 7,15  duration 0.173 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Placed locations in zone 4,16  duration 0.141 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Placed locations in zone 7,16  duration 14.967 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Force generaeting hmap (512.0, 0.0, 1024.0)
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Placed locations in zone 8,-2  duration 5.223 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Dungeon load time 0.778 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Generating DG_ForestCrypt(Clone), Seed: 1897037981, Bounds diff: (-38.5, -32.0, -43.4) / (25.5, 32.0, 20.6)
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:34: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:34: placed 10 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Placed 28 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Dungeon generated with seed 1897037981 and hash 33179643
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Placed locations in zone 9,-2  duration 36.562 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Placed locations in zone 2,17  duration 20.899 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:34: Placed locations in zone 10,-2  duration 1.092 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Placed locations in zone 9,-1  duration 2.504 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Dungeon load time 0.57 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Generating DG_MeadowsFarm(Clone), Seed: 1850857502, Bounds diff: (-32.0, -32.0, -32.0) / (32.0, 32.0, 32.0)
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Available rooms:13
+
+[Info   : Unity Log] 04/27/2022 16:05:35: To place:30
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Placed 13 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Dungeon generated with seed 1850857502 and hash -1439396049
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Placed locations in zone 9,0  duration 268.836 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Placed locations in zone 1,18  duration 15.158 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Placed locations in zone 12,0  duration 0.962 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:35: Placed locations in zone 2,18  duration 2.337 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Placed locations in zone 8,1  duration 0.264 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Placed locations in zone 0,19  duration 30.037 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Placed locations in zone 2,19  duration 1.142 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Placed locations in zone 3,19  duration 1.232 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Dungeon load time 0.646 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Generating DG_ForestCrypt(Clone), Seed: 1895346317, Bounds diff: (-36.5, -32.0, -22.7) / (27.5, 32.0, 41.3)
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:36: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:36: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:37: All required rooms have been placed, stopping generation
+
+[Info   : Unity Log] 04/27/2022 16:05:37: placed 14 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Placed 42 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Dungeon generated with seed 1895346317 and hash -158349142
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Placed locations in zone 4,19  duration 66.002 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Placed locations in zone 5,19  duration 28.936 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Dungeon load time 0.537 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Generating DG_ForestCrypt(Clone), Seed: 1894454308, Bounds diff: (-27.7, -32.0, -41.4) / (36.3, 32.0, 22.6)
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:37: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:37: placed 8 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Placed 35 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Dungeon generated with seed 1894454308 and hash -533036024
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Placed locations in zone 7,19  duration 49.428 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:37: Placed locations in zone 8,19  duration 16.259 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:37:  Connections 3 ZDOS:69982  sent:1821 recv:346
+
+[Info   : Unity Log] 04/27/2022 16:05:38: Placed locations in zone 9,10  duration 2.683 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:38: Placed locations in zone 9,12  duration 0.171 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:38: Placed locations in zone 9,13  duration 2.099 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:39: Placed locations in zone 9,15  duration 14.987 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:40: Placed locations in zone 9,9  duration 3.863 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:42: Placed locations in zone 8,7  duration 15.093 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:42: Placed locations in zone 9,7  duration 0.776 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Placed locations in zone 5,2  duration 2.376 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Dungeon load time 0.606 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Generating DG_MeadowsFarm(Clone), Seed: 1850820675, Bounds diff: (-32.0, -32.0, -32.0) / (32.0, 32.0, 32.0)
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Available rooms:13
+
+[Info   : Unity Log] 04/27/2022 16:05:48: To place:30
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Placed 11 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Dungeon generated with seed 1850820675 and hash 735139875
+
+[Info   : Unity Log] 04/27/2022 16:05:48: Placed locations in zone 8,2  duration 121.138 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Dungeon load time 0.7 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Generating DG_ForestCrypt(Clone), Seed: 1896043102, Bounds diff: (-35.9, -32.0, -29.3) / (28.1, 32.0, 34.7)
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:05:49: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:05:49: placed 2 doors
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Placed 24 rooms
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Dungeon generated with seed 1896043102 and hash 117271162
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Placed locations in zone 11,2  duration 48.061 ms
+
+[Info   : Unity Log] 04/27/2022 16:05:49: Placed locations in zone 12,2  duration 3.159 ms
+
+[Info   : Unity Log] 04/27/2022 16:06:16: Placed locations in zone 6,6  duration 0.783 ms
+
+[Info   : Unity Log] 04/27/2022 16:06:16: Placed locations in zone 7,6  duration 0.083 ms
+
+[Info   : Unity Log] 04/27/2022 16:06:17: Placed locations in zone 8,6  duration 2.129 ms
+
+[Info   : Unity Log] 04/27/2022 16:06:17: Placed locations in zone 9,6  duration 0.092 ms
+
+[Info   : Unity Log] 04/27/2022 16:06:25: Placed locations in zone 7,4  duration 15.63 ms
+
+[Info   : Unity Log] 04/27/2022 16:06:25: Placed locations in zone 8,4  duration 1.03 ms
+
+[Info   : Unity Log] 04/27/2022 16:07:26: Placed locations in zone 7,3  duration 3.127 ms
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Loading dungeon
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Dungeon loaded 0
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Dungeon load time 0.596 ms
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Generating DG_ForestCrypt(Clone), Seed: 1896677713, Bounds diff: (-29.2, -32.0, -33.3) / (34.8, 32.0, 30.7)
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Available rooms:18
+
+[Info   : Unity Log] 04/27/2022 16:07:27: To place:40
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Connections 4
+
+[Info   : Unity Log] 04/27/2022 16:07:27: All required rooms have been placed, stopping generation
+
+[Info   : Unity Log] 04/27/2022 16:07:27: placed 12 doors
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Placed 35 rooms
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Dungeon generated with seed 1896677713 and hash -507105038
+
+[Info   : Unity Log] 04/27/2022 16:07:27: Placed locations in zone 8,3  duration 53.917 ms
+
+[Info   : Unity Log] [MPASN] Checing Expired Items
+[Info   : Unity Log] [MPASN] Adding Banker Income
+[Info   : Unity Log] 04/27/2022 16:15:17: RPC_Disconnect 
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3463 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:1 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3461 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3464 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3076 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3465 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3075 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3227 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Destroying abandoned non persistent zdo 2341167038:3462 owner 2341167038
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Disposing socket
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Closing socket 76561198005208275
+
+[Info   : Unity Log] 04/27/2022 16:15:17:   send queue size:0
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Disposing socket
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Got status changed msg k_ESteamNetworkingConnectionState_ClosedByPeer
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Socket closed by peer Steamworks.SteamNetConnectionStatusChangedCallback_t
+
+[Info   : Unity Log] 04/27/2022 16:15:17: Got status changed msg k_ESteamNetworkingConnectionState_None
+
+[Info   : Unity Log] 04/27/2022 16:15:38:  Connections 2 ZDOS:80922  sent:311 recv:350
+
+[Info   : Unity Log] 04/27/2022 16:15:40: clone 113
+
