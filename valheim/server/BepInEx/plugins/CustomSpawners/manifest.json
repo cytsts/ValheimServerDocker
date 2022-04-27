@@ -1,0 +1,9 @@
+{
+    "name": "CustomSpawners",
+    "version_number": "1.0.5",
+    "website_url": "",
+    "description": "Let you create indestructible spawners with any piece appearance",
+    "dependencies": [
+       "ValheimModding-Jotunn-2.6.0"
+    ]
+}
