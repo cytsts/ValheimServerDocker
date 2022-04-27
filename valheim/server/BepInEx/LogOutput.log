@@ -1,0 +1,97 @@
+[Message:   BepInEx] BepInEx 5.4.19.0 - valheim_server (4/26/2022 9:43:09 PM)
+[Info   :   BepInEx] Running under Unity vUnknown (post-2017)
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Linux
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.19.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Info   :   BepInEx] Detected Unity version: v2019.4.31f1
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 11 plugins to load
+[Warning:   BepInEx] Skipping [Valheim Plus 0.9.9.8] because a newer version exists (Valheim Plus 0.9.9.8)
+[Info   :   BepInEx] Loading [PlantEverything 1.11.2]
+[Info   :   BepInEx] Loading [Jotunn 2.6.2]
+[Info   :    Jotunn] Initializing LocalizationManager
+[Info   :    Jotunn] Initializing CommandManager
+[Info   :    Jotunn] Initializing InputManager
+[Info   :    Jotunn] Initializing SkillManager
+[Info   :    Jotunn] Initializing PrefabManager
+[Info   :    Jotunn] Initializing ItemManager
+[Info   :    Jotunn] Initializing PieceManager
+[Info   :    Jotunn] Initializing CreatureManager
+[Info   :    Jotunn] Initializing ZoneManager
+[Info   :    Jotunn] Initializing MockManager
+[Info   :    Jotunn] Initializing KitbashManager
+[Info   :    Jotunn] Initializing GUIManager
+[Info   :    Jotunn] Initializing KeyHintManager
+[Info   :    Jotunn] Initializing NetworkManager
+[Info   :    Jotunn] Initializing SynchronizationManager
+[Info   :    Jotunn] Initializing RenderManager
+[Info   :    Jotunn] Initializing MinimapManager
+[Info   :    Jotunn] Jötunn v2.6.2 loaded successfully
+[Info   :   BepInEx] Loading [Detalhes.CustomSpawners 1.0.5]
+[Info   :   BepInEx] Loading [Kgmarketplace 7.3.5]
+[Info   : Unity Log] 04/27/2022 08:47:44: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 04/27/2022 08:47:44: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] [MPASN] MarketPlace : Server
+[Info   : Unity Log] [MPASN] OnlyEpicLootItems FOUND AND SET TO False
+[Info   : Unity Log] [MPASN] ItemMarketLimit FOUND AND SET TO 15
+[Info   : Unity Log] [MPASN] BlockedPlayers FOUND AND SET TO steam ids
+[Info   : Unity Log] [MPASN] VIPplayersList FOUND AND SET TO steam ids
+[Info   : Unity Log] [MPASN] MarketTaxes FOUND AND SET TO 0
+[Info   : Unity Log] [MPASN] VIPplayersTaxes FOUND AND SET TO 0
+[Info   : Unity Log] [MPASN] CanTeleportWithOre FOUND AND SET TO True
+[Info   : Unity Log] [MPASN] MarketSellBlockedPrefabs FOUND AND SET TO Coins , SwordCheat
+[Info   : Unity Log] [MPASN] FeedbackWebhookLink FOUND AND SET TO webhook link
+[Info   : Unity Log] [MPASN] ServerCurrency FOUND AND SET TO Coins
+[Info   : Unity Log] [MPASN] BankerIncomeTime FOUND AND SET TO 1
+[Info   : Unity Log] [MPASN] BankerIncomeMultiplier FOUND AND SET TO 0
+[Info   : Unity Log] [MPASN] BankerVIPIncomeMultiplier FOUND AND SET TO 0
+[Info   : Unity Log] [MPASN] MarketSlotExpirationTime FOUND AND SET TO 168
+[Info   : Unity Log] [MPASN] GamblerEnableWinNotifications FOUND AND SET TO False
+[Info   : Unity Log] [MPASN] Trader NPC:
+
+[Info   : Unity Log] [MPASN] MapPins Sprites:
+
+[Info   : Unity Log] [MPASN] MapPinner NPC:
+
+[Info   : Unity Log] [MPASN] TeleporterData package size: 7, after compress 25
+[Info   : Unity Log] [MPASN] Banker NPC:
+
+[Info   : Unity Log] [MPASN] Started Banker Income Coroutine
+[Info   : Unity Log] Gamble NPC:
+
+[Info   : Unity Log] Quests NPC:
+
+[Info   : Unity Log] Quests Database:
+
+[Info   : Unity Log] [MPASN] Territory NPC:
+
+[Info   : Unity Log] [MPASN] FSW started
+[Info   :   BepInEx] Loading [PlanBuild 0.9.5]
+[Info   :PlanBuild.Plans.PlanManager] Initializing PlanManager
