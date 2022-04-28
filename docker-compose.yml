@@ -35,7 +35,14 @@ services:
               ,https://cdn.thunderstore.io/live/repository/packages/KGvalheim-Marketplace_And_Server_NPCs_Revamped-7.3.5.zip
               ,https://cdn.thunderstore.io/live/repository/packages/Smoothbrain-CreatureLevelAndLootControl-4.4.7.zip
               ,https://cdn.thunderstore.io/live/repository/packages/Server_devcommands-1.17.0.zip
-              ,https://cdn.thunderstore.io/live/repository/packages/Advize-PlantEverything-1.11.2.zip           
+              ,https://cdn.thunderstore.io/live/repository/packages/Advize-PlantEverything-1.11.2.zip     
+              ,https://cdn.thunderstore.io/live/repository/packages/cjayride-GraphicsConfigPlus-1.2.1.zip                  
+              ,https://cdn.thunderstore.io/live/repository/packages/Azumatt-WardIsLove-2.3.9.zip  
+              ,https://cdn.thunderstore.io/live/repository/packages/JereKuusela-Infinity_Hammer-1.11.0.zip
+              ,https://cdn.thunderstore.io/live/repository/packages/Cooleyy-EasySpawner-1.5.1.zip
+              ,https://cdn.thunderstore.io/live/repository/packages/Skrip-SkToolbox-1.10.5.zip
+              ,https://cdn.thunderstore.io/live/repository/packages/Nextek-SpeedyPaths-1.0.6.zip
+              
                 
                 
     volumes:
